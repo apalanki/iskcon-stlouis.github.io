@@ -1490,7 +1490,7 @@
 
 					#page-header nav ul li {
 						display: inline-block;
-						margin-left: 1.5em;
+						margin-left: 1em;
 						font-size: 1.1em;
 					}
 
@@ -1510,7 +1510,7 @@
 						}
 
 						#page-header nav ul li .arrow {
-							padding-right: 2.5em;
+							padding-right: 1em;
 						}
 
 							#page-header nav ul li .arrow:after {
@@ -1520,8 +1520,7 @@
 								border-top: solid 5px #fff;
 								border-left: solid 5px transparent;
 								border-right: solid 5px transparent;
-								top: 1.15em;
-								right: 1em;
+								top: 0.8em;
 							}
 
 					#page-header nav > ul > li > ul {
@@ -1960,12 +1959,12 @@
 		/* Header */
 
 			#page-header h1 {
-				font-size: 1.5em;
-				letter-spacing: -1px;
+				font-size: 1.3em;
+				letter-spacing: -0.8px;
 			}
 
 			#page-header nav ul li {
-				margin-left: 0.5em;
+				margin-left: 0.1em;
 			}
 
 			.dropotron.level-0 {
