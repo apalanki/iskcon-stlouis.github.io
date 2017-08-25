@@ -12,6 +12,12 @@ $(document).ready(function() {
         events: {
             googleCalendarId: 'lho0jgesg477kb4batmfe55dv8@group.calendar.google.com',
             className: 'gcal-event' // an option!
+        },
+        eventClick: function (event) {
+            if(event.url){
+                window.open(event.url);
+                return false;
+            }
         }
     });
 });
