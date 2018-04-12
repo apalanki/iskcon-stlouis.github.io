@@ -22,6 +22,7 @@ Demo on: http://ignitersworld.com/lab/imageViewer.html
 }
 
 .iv-close {
+    margin-top: 32px;
     width: 32px;
     height: 32px;
     position: absolute;
