@@ -2018,6 +2018,10 @@
 					width: 1001px;
 				}
 
+		.iv-container {
+			margin-top: 35px;
+		}
+
 		/* Content */
 
 			#content > section, #content > article {
