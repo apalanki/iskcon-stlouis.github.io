@@ -1548,6 +1548,10 @@
 					padding: 0 3em 0 1em;
 				}
 
+				.iv-container {
+					margin-top: 60px;
+				}
+
 				.dropotron .arrow:before {
 					content: '';
 					display: block;
@@ -2212,6 +2216,10 @@
 				background: #00a6eb;
 				color: #fff;
 			}
+
+				.iv-container {
+					margin-top: 35px;
+				}
 
 				#titleBar .title {
 					display: block;
