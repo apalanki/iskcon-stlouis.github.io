@@ -18,11 +18,11 @@ Demo on: http://ignitersworld.com/lab/imageViewer.html
 }
 
 .iv-container {
+    margin-top: 32px;
     overflow: hidden;
 }
 
 .iv-close {
-    margin-top: 32px;
     width: 32px;
     height: 32px;
     position: absolute;
