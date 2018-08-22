@@ -67,7 +67,7 @@
                     <div class="nav-previous"></div>
                     <div class="reel">
                         <!--<div class="slide">-->
-                            <!--<img src="images/rath_yatra/rath_yatra_2018_flyer.jpg" alt=""/>-->
+                        <!--<img src="images/rath_yatra/rath_yatra_2018_flyer.jpg" alt=""/>-->
                         <!--</div>-->
                         <div class="slide">
                             <img src="images/narasimha_pooja/narasimha_pooja_slider.jpg" alt=""/>
@@ -115,7 +115,7 @@
                                 <span class="byline">On Sept 3rd 2018, at Temple</span>
                             </header>
                             <div class='image image-fit'>
-                                <img src="images/janmashtami/temple_janmastami_2018.jpg" alt="" class="pannable-image">
+                                <img src="images/janmashtami/temple_janmastami_2018.jpg" alt="" class="pannable-image-1">
                             </div>
                         </section>
                         <section id='next-event-1'>
@@ -124,7 +124,7 @@
                                 <span class="byline">On Sept 8th 2018, at Mahatma Gandhi Center</span>
                             </header>
                             <div class='image image-fit'>
-                                <img src="images/janmashtami/public_janmasthami_2018.jpg" alt="" class="pannable-image">
+                                <img src="images/janmashtami/public_janmasthami_2018.jpg" alt="" class="pannable-image-2">
                             </div>
                         </section>
                         <section id="temple-activities">
@@ -273,7 +273,7 @@
 
                                     <p>Sunday Krishna Fest Sponsor</p>
                                     <span>$251 one time</span>
-                                </a>											-->
+                                </a> -->
                             </section>
 
                             <!--Section 2-->
@@ -335,7 +335,8 @@
             Copyright &copy;
             <script>document.write(new Date().getFullYear())</script>
             All rights reserved| ISKCON, St.Louis, 3926 Lindell Blvd, St.Louis 63108 | Ph: (314)-535-8085 |
-            (314)-255-2207 | Email: <a href="mailTo:root@iskconstlouis.org" target="_blank">root@iskconstlouis.org</a> <br>
+            (314)-255-2207 | Email: <a href="mailTo:root@iskconstlouis.org" target="_blank">root@iskconstlouis.org</a>
+            <br>
             Hare Krishna Hare Krishna Krishna Krishna Hare Hare | Hare Rama Hare Rama Rama Rama Hare Hare <br>
             Designed and Maintained by Anudeep Palanki
         </div>
@@ -378,8 +379,11 @@
 
     $(function () {
         var viewer = ImageViewer(); //options is optional parameter
-        $('.pannable-image').click(function () {
-            viewer.show('images/KC-parenting.gif'); //second paramter is optional
+        $('.pannable-image-1').click(function () {
+            viewer.show('images/janmashtami/temple_janmastami_2018.jpg'); //second paramter is optional
+        });
+        $('.pannable-image-2').click(function () {
+            viewer.show('images/janmashtami/public_janmasthami_2018.jpg'); //second paramter is optional
         });
     });
 
